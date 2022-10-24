@@ -8,13 +8,13 @@ function App() {
     <main className="app">
       <Profile />
 
-      {appLinks.map((link) => (
-        <div key={link.id}>
-          <Button href={link.link} alt={link.alt}>
+      <div className="button_container">
+        {appLinks.map((link) => (
+          <Button href={link.link} alt={link.alt} key={link.id}>
             {link.title}
           </Button>
-        </div>
-      ))}
+        ))}
+      </div>
     </main>
   );
 }
