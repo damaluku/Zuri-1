@@ -11,10 +11,16 @@ html {
   box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f5f7;
 }
 
 .app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 1152px;
 }
