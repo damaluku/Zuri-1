@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "./components/button/Button";
 import Profile from "./components/profile/Profile";
 import { appLinks } from "./assets/appLinks";
+import Socials from "./components/socials/Socials";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           </Button>
         ))}
       </div>
+
+      <Socials />
     </main>
   );
 }

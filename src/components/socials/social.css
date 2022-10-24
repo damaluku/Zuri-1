@@ -1,0 +1,21 @@
+.social_container {
+  height: 72px;
+  width: 100%;
+
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0px;
+  gap: 26.25px;
+  background: #ffffff;
+}
+
+.social_container svg,
+.social_container img {
+  height: 23.44611930847168px;
+  width: 24px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
