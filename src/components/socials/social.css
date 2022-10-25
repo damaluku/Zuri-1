@@ -1,8 +1,6 @@
 .social_container {
   height: 72px;
   width: 100%;
-
-  border-radius: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +13,4 @@
 .social_container img {
   height: 23.44611930847168px;
   width: 24px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
 }

@@ -53,3 +53,20 @@
   display: grid;
   place-content: center;
 }
+
+@media screen and (max-width: 375px) {
+  .profile h3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    color: #101828;
+    margin-top: 24px;
+  }
+}

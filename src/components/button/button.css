@@ -1,35 +1,35 @@
 .links_container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 24px 32px;
-  gap: 8px;
   height: 76px;
+  width: 1152px;
   background: #eaecf0;
   border: 1px solid #eaecf0;
   border-radius: 8px;
-  flex: none;
-  order: 0;
   flex-grow: 1;
-  text-decoration: none;
   margin-bottom: 24px;
+  text-decoration: none;
 }
 
-.links_container a {
-  height: 28px;
+.links_container span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 28px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #101828;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   text-transform: capitalize;
-  text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  .links_container {
+    height: 68px;
+    max-width: 100%;
+    border-radius: 8px;
+    width: 343px;
+  }
 }

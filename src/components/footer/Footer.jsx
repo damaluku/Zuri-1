@@ -11,7 +11,7 @@ const Footer = () => {
         <span className="dot"></span>
       </div>
       <div className="footer_text">HNG Internship 9 Frontend Task</div>
-      <div>
+      <div className="ingressive">
         <img src={ingressive} alt="ingressive for good" />
       </div>
     </footer>

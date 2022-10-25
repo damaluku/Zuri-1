@@ -3,11 +3,9 @@ import "./button.css";
 
 const Button = ({ children, href, alt }) => {
   return (
-    <div className="links_container">
-      <a href={href} alt={alt} className="">
-        {children}
-      </a>
-    </div>
+    <a href={href} alt={alt} className="links_container">
+      <span>{children}</span>
+    </a>
   );
 };
 
