@@ -17,7 +17,12 @@ function App() {
           <section>
             <div className="button_container">
               {appLinks.map((link) => (
-                <Button href={link.link} alt={link.alt} key={link.id}>
+                <Button
+                  href={link.link}
+                  alt={link.alt}
+                  key={link.id}
+                  idStyle={link.idStyle}
+                >
                   {link.title}
                 </Button>
               ))}

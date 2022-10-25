@@ -30,15 +30,7 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 375px) {
-  body {
-    display: block;
-  }
-
-  .app {
-    padding: 0 16px;
-  }
-
+@media screen and (max-width: 500px) {
   .button_container {
     width: 100%;
     display: flex;

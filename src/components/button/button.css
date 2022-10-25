@@ -25,10 +25,10 @@
   text-transform: capitalize;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .links_container {
     height: 68px;
-    max-width: 100%;
+    width: 343px;
     border-radius: 8px;
     width: 343px;
   }

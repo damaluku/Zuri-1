@@ -54,7 +54,28 @@
   place-content: center;
 }
 
-@media screen and (max-width: 375px) {
+.dots_button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 0px;
+  top: -20px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px dashed #d0d5dd;
+  border-radius: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+  display: none;
+}
+
+#slack {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
   .profile h3 {
     font-family: Inter;
     font-size: 18px;
@@ -68,5 +89,14 @@
     flex-grow: 1;
     color: #101828;
     margin-top: 24px;
+  }
+
+  .share_button {
+    display: none;
+  }
+
+  .dots_button {
+    display: grid;
+    place-content: center;
   }
 }
