@@ -8,7 +8,7 @@ const Profile = () => {
     <div className="profile">
       <div className="image_container" id="profile__img"></div>
       <h3 id="twitter">Damian Aluku</h3>
-      <h3 id="slack">Damian</h3>
+      <h3 id="slack">Damian Aluku</h3>
       <span className="share_button">
         <img src={arrow} alt="arrow" />
       </span>
